@@ -70,7 +70,7 @@ class App extends Component {
     render() {
       return (
         <Wrapper>
-          <Nav
+          <Nav col-sm-6
             title="Awesome Character Clicky Memory"
             score={this.state.currentScore}
             topScore={this.state.topScore}
@@ -79,7 +79,7 @@ class App extends Component {
   
           <Title>
             Click on each character, but don't hit any duplicates, or
-            you're dead!!!
+            you're out!!!
           </Title>
   
           <Container>
